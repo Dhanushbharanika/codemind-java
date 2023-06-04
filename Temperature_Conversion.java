@@ -1,1 +1,14 @@
-import java.util.Scanner;public class Sample{ public static void main(String args[]) { int c; float f; Scanner sc=new Scanner(System.in); c=sc.nextInt(); f=32+(c*(float)9/5); System.out.format("%.2f",f); sc.close(); }}
+import java.util.Scanner;
+public class codemind
+{
+    public static void main(String args[])
+    {
+        int a; float s;
+        Scanner sc=new Scanner(System.in);
+        a=sc.nextInt();
+        s=32+(a*(float)9/5);
+        System.out.printf("%.2f",s);
+        sc.close();
+        }
+    
+}
