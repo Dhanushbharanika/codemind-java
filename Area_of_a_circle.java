@@ -1,1 +1,14 @@
-import java.util.Scanner;public class Sample{ public static void main(String args[]) { Scanner sc=new Scanner(System.in); float pi=3.14f,area; int r; r=sc.nextInt(); area=pi*r*r; System.out.format("%.2f",area); sc.close(); }}
+import java.util.Scanner;
+public class codemind
+{
+    public static void main(String args[])
+    { 
+        int n;
+        Scanner sc=new Scanner(System.in);
+        n=sc.nextInt();
+        double a=3.14*n*n;
+        System.out.printf("%.2f",a);
+        sc.close();
+        }
+    
+}
